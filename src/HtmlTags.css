@@ -1,0 +1,192 @@
+.overall-screen {
+    background-color: rgb(234, 241, 241);
+    border-style: dashed;
+    border-color: rgb(11, 231, 26);
+}
+
+hr{
+    width: 1fr;
+    justify-items: flex-end;
+    border-color: rgb(225, 207, 13);
+}
+
+.heading {
+    text-align: center;
+    color: rgb(246, 59, 59);
+}
+
+.para {
+    text-align: center;
+    font-size: larger;
+    font-family: Arial;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.list-tag {
+    font-size: x-large;
+    font-family: 'Courier New';
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    align-items: end;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+#lists {
+    max-width: 1fr;
+    margin: 0 auto;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#services{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.color-code-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.color-code-table th,
+.color-code-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.color-code-table th {
+    background-color: #f2f2f2;
+}
+
+.color-code-table td {
+    background-color: #fff;
+}
+
+/* Add styles for the forms section */
+.forms-section {
+    max-width: 600px;
+    /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    /* Center the section horizontally */
+}
+
+/* Add basic styles for form elements */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1ce426;
+}
+
+/* Add styles for the media section */
+.media-section {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+/* Add basic styles for media elements */
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+audio,
+video {
+    width: 100%;
+    margin-bottom: 20px;
+}

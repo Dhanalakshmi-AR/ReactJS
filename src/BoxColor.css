@@ -1,0 +1,21 @@
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: defaultColor; /* Set your default color here */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #000; /* Add border for better visibility */
+  }
+  
+  .selected {
+    background-color: green; /* Set your selected color here */
+  }
+  
